@@ -12,6 +12,7 @@ pub mod lc_0235_lowest_common_ansestor;
 pub mod lc_0242_valid_anagram;
 pub mod lc_0704_binary_search;
 pub mod lc_0733_flood_fill;
+pub mod lc_0278_is_bad_version;
 
 pub use lc_0001_two_sum::*;
 pub use lc_0020_valid_parentheses::*;
@@ -23,3 +24,4 @@ pub use lc_0226_invert_binary_tree::*;
 pub use lc_0235_lowest_common_ansestor::*;
 pub use lc_0242_valid_anagram::*;
 pub use lc_0733_flood_fill::*;
+pub use lc_0278_is_bad_version::*;
