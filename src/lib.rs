@@ -16,6 +16,7 @@ pub mod lc_0383_ransom_note;
 pub mod lc_0409_longest_palindrome;
 pub mod lc_0704_binary_search;
 pub mod lc_0733_flood_fill;
+pub mod lc_0206_reverse_linked_list;
 
 pub use lc_0001_two_sum::*;
 pub use lc_0020_valid_parentheses::*;
@@ -30,3 +31,4 @@ pub use lc_0242_valid_anagram::*;
 pub use lc_0278_is_bad_version::*;
 pub use lc_0383_ransom_note::*;
 pub use lc_0409_longest_palindrome::*;
+pub use lc_0206_reverse_linked_list::*;
