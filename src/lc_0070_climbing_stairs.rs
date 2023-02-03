@@ -4,6 +4,10 @@ struct Solution {}
 impl Solution {
     #[allow(dead_code)]
     pub fn climb_stairs(n: i32) -> i32 {
+        if n < 0 {
+            panic!("Can't handle negative numbers");
+        }
+
         if n <= 2 {
             return n;
         }
