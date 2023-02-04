@@ -1,4 +1,4 @@
-use std::{cell::RefCell, rc::Rc};
+use std::{cell::RefCell, rc::Rc, fmt::{ Display, Formatter }};
 
 #[derive(Debug, PartialEq, Eq)]
 pub struct TreeNode {
@@ -65,6 +65,28 @@ impl TreeNode {
 
         if let Some(right) = &self.right {
             right.borrow().walk(result);
+        }
+    }
+}
+
+impl Display for TreeNode {
+    fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
+        if self.val == i32::MIN {
+            Ok(())
+        } else {
+            let left = if let Some(left) = &self.left {
+                left.borrow().fmt(f)?;
+                format!("{}", left.borrow().val)
+            } else {
+                "-".to_string()
+            };
+            let right = if let Some(right) = &self.right {
+                right.borrow().fmt(f)?;
+                format!("{}", right.borrow().val)
+            } else {
+                "-".to_string()
+            };
+            write!(f, "{}, left = {left}, right = {right}", self.val)
         }
     }
 }
