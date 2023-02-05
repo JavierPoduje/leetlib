@@ -24,6 +24,7 @@ pub mod lc_0543_diameter_of_binary_tree;
 pub mod lc_0704_binary_search;
 pub mod lc_0733_flood_fill;
 pub mod lc_0876_middle_of_the_linked_list;
+pub mod lc_0056_insert_interval;
 
 pub use lc_0001_two_sum::*;
 pub use lc_0020_valid_parentheses::*;
@@ -46,3 +47,4 @@ pub use lc_0383_ransom_note::*;
 pub use lc_0409_longest_palindrome::*;
 pub use lc_0543_diameter_of_binary_tree::*;
 pub use lc_0876_middle_of_the_linked_list::*;
+pub use lc_0056_insert_interval::*;
