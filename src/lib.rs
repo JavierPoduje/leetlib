@@ -30,6 +30,7 @@ pub mod lc_0733_flood_fill;
 pub mod lc_0876_middle_of_the_linked_list;
 pub mod lc_0973_k_closest_points_to_origin;
 pub mod lc_0102_binary_tree_level_order_traversal;
+pub mod lc_0207_course_schedule;
 
 pub use lc_0001_two_sum::*;
 pub use lc_0003_longest_substring_without_repeating_characters::*;
@@ -58,3 +59,4 @@ pub use lc_0543_diameter_of_binary_tree::*;
 pub use lc_0876_middle_of_the_linked_list::*;
 pub use lc_0973_k_closest_points_to_origin::*;
 pub use lc_0102_binary_tree_level_order_traversal::*;
+pub use lc_0207_course_schedule::*;
