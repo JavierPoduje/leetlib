@@ -33,6 +33,7 @@ pub mod lc_0704_binary_search;
 pub mod lc_0733_flood_fill;
 pub mod lc_0876_middle_of_the_linked_list;
 pub mod lc_0973_k_closest_points_to_origin;
+pub mod lc_0238_product_of_array_except_self;
 
 pub use lc_0001_two_sum::*;
 pub use lc_0003_longest_substring_without_repeating_characters::*;
@@ -64,3 +65,4 @@ pub use lc_0542_matrix::*;
 pub use lc_0543_diameter_of_binary_tree::*;
 pub use lc_0876_middle_of_the_linked_list::*;
 pub use lc_0973_k_closest_points_to_origin::*;
+pub use lc_0238_product_of_array_except_self::*;
